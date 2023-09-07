@@ -112,7 +112,7 @@ def illustrate_list_statistics():
 
 
 def illustrate_list_correlation_and_prediction():
-    """This function illustrates correlation and prediction for a numric list."""
+    """This function illustrates correlation and prediction for a numeric list."""
 
     logger.info(f"xtimes_list: {xtimes_list}")
     logger.info(f"yvalues_list: {yvalues_list}")
@@ -148,7 +148,7 @@ def illustrate_list_correlation_and_prediction():
 
     newy = slope * newx + intercept
 
-    logger.info("We predict that when x = {newx}, y will be about {newy}")
+    logger.info(f"We predict that when x = {newx}, y will be about {newy}")
 
 
 def illustrate_list_built_in_functions():
@@ -257,9 +257,8 @@ def illustrate_list_methods():
     # Remove the last item from the new list
     # The last item in a list is at index -1
     last = new_scores.pop(-1)
-    logger.info(
-        f"Popped the last (index=-1): {last} and now, new_scores is: {new_scores}"
-    )
+    logger.info(f"Popped the last (index=-1): {last} and now, new_scores is: {new_scores}"
+ )
 
     # Remove the item at index 3 from the new list
     fourth = new_scores.pop(3)
