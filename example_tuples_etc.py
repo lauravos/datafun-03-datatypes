@@ -61,9 +61,9 @@ def illustrate_tuples():
     # TODO: Start using this f-string "syntactic sugar" for quick ouptut
     # just add space = space inside the curly braces
     # it will print the name of the variable and the value
-    logger.info(f"{tupleA  = }")
-    logger.info(f"{tupleB  = }")
-    logger.info(f"{tupleCat  = }")
+    logger.info(f"{tupleA = }")
+    logger.info(f"{tupleB = }")
+    logger.info(f"{tupleCat = }")
     logger.info(f"{tupleAThrice = }")
 
     # tuple membership testing
