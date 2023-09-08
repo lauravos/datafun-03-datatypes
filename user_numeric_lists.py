@@ -166,11 +166,11 @@ count_of_2 = lst.count(2)
 logger.info(f"Number of times 2 appears in lst: {count_of_2}")
 
 #sort
-ascending_lst = lst.sort()
+lst.sort()
 logger.info(f"lst sorted into ascending order: {lst}")
 
 #sort with reverse=True to get them in descending order
-descending_lst = lst.sort(reverse=True)
+lst.sort(reverse=True)
 logger.info(f"lst sorted into descending order: {lst}")
 
 #copy to a new list
